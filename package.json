@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "devstart": "PORT=4000 DEBUG=myapp:* node ./bin/www",
     "start": "node ./bin/www"
   },
   "dependencies": {
